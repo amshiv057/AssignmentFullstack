@@ -1,0 +1,25 @@
+{
+    "development": {
+      "config_id": "development",
+      "port": 4000,
+      "hostAddress": "localhost:4000",
+      "databaseHost": "0.0.0.0",
+      "databasePort": "27017",
+      "databaseName": "car-dealer"
+    },
+    "production": {
+      "config_id": "production",
+      "port": 5009,
+      "hostAddress": "172.18.15.245:5009",
+      "databaseHost": "0.0.0.0",
+      "databasePort": "27017",
+      "databaseName": "car-dealer",
+      "dbCredential": {
+        "host": "@cluster0.bzkdvic.mongodb.net",
+        "user": "tiwarishiv7169",
+        "dbName": "car-dealer",
+        "password": "Shivam12"
+      }
+    }
+  }
+  
